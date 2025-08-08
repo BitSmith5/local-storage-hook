@@ -7,7 +7,7 @@ export function DisplayNumber() {
   return (
     <div className="display">
       <h3>Locally Saved Number</h3>
-      <h2>{number}</h2>
+      <div className="display-number">{number}</div>
       <section className="display-buttons">
         <button onClick={() => updateNumber(number - 1)}>Decrement</button>
         <button onClick={() => updateNumber(number + 1)}>Increment</button>
